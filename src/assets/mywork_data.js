@@ -3,7 +3,7 @@ import project2_img from '../assets/RC_Assets/WeatherView.png'
 import project3_img from '../assets/RC_Assets/spotify-Clone.png'
 import project4_img from '../assets/RC_Assets/CatFact.png'
 import project5_img from '../assets/RC_Assets/Todo-Application.png'
-import project6_img from '../assets/RC_Assets/Hostel-Management-system.png'
+import project6_img from '../assets/RC_Assets/Hostel-management-system.png'
 
 const mywork_data = [
     {
