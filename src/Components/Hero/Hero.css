@@ -58,3 +58,9 @@
 .hero-resume:hover{
     border: 2px solid #B923E1;
 }
+.hero-resume a {
+    color: White;
+    text-decoration: none;
+    
+    
+}

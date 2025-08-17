@@ -1,0 +1,82 @@
+.myproject-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.myproject-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.myproject-underline {
+  width: 450px;
+  height: 4px;
+  margin: 10px auto;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+  background-size: 300% 300%;
+  border-radius: 2px;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.myproject-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem !important;
+}
+
+.card {
+    background-color: #161513 !important;
+    color: white !important;
+    transition: transform 0.3s ease;
+    border-radius: 15px !important;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: white !important;
+}
+
+.card-text {
+    color: white !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 13px !important;
+    border-top-right-radius: 13px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-primary {
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(264deg, #B923E1 -5.09%, #DA7C25 106.28%);
+    transform: scale(1.05);
+}

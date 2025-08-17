@@ -1,0 +1,122 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contact-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-underline {
+  width: 450px;
+  height: 4px;
+  margin: 10px auto;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+  background-size: 300% 300%;
+  border-radius: 2px;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-left h1{
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(264deg, #B923E1 -5.09%, #DA7C25 106.28%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width: 550px;
+    color: #D8D8D8;
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 22px;
+
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+.contact-right label{
+    color:#D8D8D8;
+    font-weight: 500;
+    font-size: 22px;
+
+}
+.contact-right input {
+    width: 700px;
+    height: 78px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2C2C2C;
+    color: #D8D8D8;
+    font-size: 18px;
+    border: none;
+    font-family: Outfit;
+
+}   
+.contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    background: #2C2C2C;
+    color: #D8D8D8;
+    font-size: 18px;
+    font-family: Outfit;
+
+}
+
+.contact-submit {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 50px;
+}

@@ -5,7 +5,7 @@ import about_profile from "../../assets/RC_Assets/ChatGPT Image Aug 17, 2025, 07
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
         <div className="about-underline"></div>
